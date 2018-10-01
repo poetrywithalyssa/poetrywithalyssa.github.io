@@ -1,0 +1,41 @@
+header {
+	background-image: url("http://thepatternlibrary.com/img/ae.jpg");
+	color: white;
+	text-align: center;
+	background-size: cover;
+}
+h1{
+	margin-bottom: 80px;
+}
+h2 {
+	margin-bottom: 170px;
+}
+ul {
+	padding: 10px;
+	background: #B8B8B8
+}
+li {
+  display: inline;
+  padding: 10px;
+}
+header img {
+	height: 10%;
+	width:30%;
+	margin: 50px;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Garamond'
+}
+p {
+	margin: 20px 0px;
+	line-height: 1.5;
+	font-size: 20px;
+	clear: left;
+}
+article {
+	margin-top: 10px;
+}
+a:visited {
+	color: white;
+}
