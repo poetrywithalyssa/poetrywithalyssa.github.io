@@ -4,11 +4,32 @@ header {
 	text-align: center;
 	background-size: cover;
 }
-h1{
-	margin-bottom: 80px;
+.container {
+  margin: 0 auto;
+  padding: 50px;
+  width: 50%;
 }
-h2 {
-	margin-bottom: 170px;
+h1.header {
+	font-size: 50px;
+	padding: 50px;
+}
+
+h2.header {
+	font-size: 30px;
+	padding: 50px;
+}
+h1.title {
+	font-size: 40px;
+	text-align: center;
+	padding: 20px;
+}
+h2.title {
+	font-size:30px;
+	text-align: center;
+}
+h4 {
+	font-size: 20px;
+	font-weight: bold;
 }
 ul {
 	padding: 10px;
@@ -25,7 +46,7 @@ header img {
 }
 
 h1, h2, h3, h4 {
-	font-family: 'Garamond'
+	font-family: 'Garamond';
 }
 p {
 	margin: 20px 0px;
@@ -33,9 +54,14 @@ p {
 	font-size: 20px;
 	clear: left;
 }
-article {
-	margin-top: 10px;
+p.poem {
+	font-size: 15px;
 }
 a:visited {
-	color: white;
+	color: black;
+}
+/* mouse over link*/
+a:hover {
+	color:gray;
+
 }
