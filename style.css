@@ -63,11 +63,13 @@ p {
 p.prose {
 	font-size:15px;
 }
-a:unvisited {
-	color:black;
-}
-a:visited {
-	color: black;
+a:link, a:visited{
+	background-color:black;
+	color:white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 }
 /* mouse over link*/
 a:hover {
