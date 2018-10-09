@@ -63,6 +63,11 @@ p {
 p.prose {
 	font-size:15px;
 }
+div a:link {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
 a:link, a:visited{
 	background-color:black;
 	color:white;
