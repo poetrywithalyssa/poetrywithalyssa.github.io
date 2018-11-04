@@ -1,77 +1,30 @@
-header {
-	background-image: url("http://thepatternlibrary.com/img/ae.jpg");
-	color: white;
-	text-align: center;
-	background-size: cover;
+nav {
+	background-color: black;
 }
-.container {
-  margin:0 auto;
-  padding:50px;
-  width:50%;
-}
-h1.header {
-	font-size:50px;
-	padding: 40px;
-}
-
-h2.header {
-	font-size:30px;
-	padding:50px;
-}
-h1.title {
-	font-size:40px;
-	text-align: center;
-	padding:35px 25px 10px 25px;
-}
-h2.title {
-	font-size:25px;
-	text-align: center;
-	padding:30px;
-}
-h2.blog_link {
-	font-size:30px;
-	padding:10px 30px 30px 30px;
-	text-align: center;
-}
-h4 {
-	font-size:20px;
-	font-weight: bold;
-}
-ul {
-	padding:10px;
-	background: #B8B8B8
-}
-li {
-  display: inline;
-  padding:10px;
-}
-header img {
-	height:10%;
-	width:30%;
-	margin:50px;
-}
-
 h1, h2, h3, h4 {
-	font-family: 'Garamond';
+	font-family: 'Helvetica Bold', sans-serif;
 }
 p {
 	margin:20px 0px;
 	line-height:1.5;
 	font-size:20px;
 	clear: left;
+	font-family: 'EB Garamond', serif;
 }
-p.prose {
-	font-size:15px;
+.img_rotate90 {
+	transform: rotate(90deg);
 }
-div a:link {
-  display: block;
-  margin: 0 auto;
-  width: 200px;
+.card {
+	background-color: #A9A9A9;
 }
-a:link, a:visited{
-	background-color:black;
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+	color: white;
+}
+blockquote {
+	border-left: 5px solid #A9A9A9;
+}
+a:link, a:visited {
 	color:white;
-	padding: 10px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -79,5 +32,4 @@ a:link, a:visited{
 /* mouse over link*/
 a:hover {
 	color:gray;
-
 }
