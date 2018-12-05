@@ -4,6 +4,9 @@ nav {
 h1, h2, h3, h4 {
 	font-family: 'Helvetica Bold', sans-serif;
 }
+.title {
+	font-family: 'Merriweather', serif;
+}
 p {
 	margin:20px 0px;
 	line-height:1.5;
@@ -28,6 +31,18 @@ blockquote {
 	border-left: 5px solid #A9A9A9;
 	font-family: 'EB Garamond', serif;
 }
+.cust-1 {
+	margin-top: 60px;
+}
+.cust-2 {
+	margin-top: 40px;
+}
+.cust-3 {
+	margin-top: 60px;
+}
+.byline {
+	font-size: 25px;
+}
 a:link, a:visited {
 	color: black;
 	text-align: center;
@@ -46,6 +61,13 @@ a.brand-logo {
 	text-decoration: none;
 	display: inline-block;
 	margin-left: 10px;
+}
+.img-subtext {
+	font-size: 14px;
+	color: grey;
+}
+blockquote {
+	font-size: 35px;
 }
 /* mouse over link*/
 a:hover {
